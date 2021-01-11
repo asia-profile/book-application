@@ -1,0 +1,36 @@
+{% extends "home.html" %}
+
+{% block content %}
+
+<table class="table">
+    <thead>
+      <tr>
+      <!--  <th>Code</th>-->
+        <th>Title</th>
+        <th>Author</th>
+        <th>Favourite Status Number</th>
+        <th>Non-Favourite Status Number</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+    {% for book in books %}
+    <tr>
+      <!--<td>{{book.moduleCode}}</td>-->
+      <td>{{book.title}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.favStat}}</td>
+      <td>{{book.noStat}}</td>
+      <td><a href="/delete_book/{{book.title}}"><button type="button" class="btn btn-primary">Delete</button></a></td>
+	
+      <!-- here put buttons for moving fav and no stats up and down -->
+
+
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

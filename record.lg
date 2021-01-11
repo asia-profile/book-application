@@ -1,0 +1,742 @@
+2021-01-11 10:26:56,684 INFO app Thread-3 : Info level log
+2021-01-11 10:26:56,685 WARNING app Thread-3 : Warning level log
+2021-01-11 10:26:56,703 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 10:26:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 10:26:56,738 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 10:26:56] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 10:26:57,039 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 10:26:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 10:27:03,124 INFO app Thread-6 : Info level log
+2021-01-11 10:27:03,125 WARNING app Thread-6 : Warning level log
+2021-01-11 10:27:03,146 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 10:27:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 10:27:03,160 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 10:27:03] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 10:27:03,220 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 10:27:03] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 10:27:05,005 INFO app Thread-9 : Info level log
+2021-01-11 10:27:05,006 WARNING app Thread-9 : Warning level log
+2021-01-11 10:27:05,009 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 10:27:05] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 11:12:33,614 INFO app Thread-3 : Info level log
+2021-01-11 11:12:33,614 WARNING app Thread-3 : Warning level log
+2021-01-11 11:12:33,627 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 11:12:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 11:12:33,649 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 11:12:33] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 11:12:33,901 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 11:12:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 11:13:20,439 INFO app Thread-3 : Info level log
+2021-01-11 11:13:20,439 WARNING app Thread-3 : Warning level log
+2021-01-11 11:13:20,456 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 11:13:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 11:13:20,482 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 11:13:20] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 11:13:20,756 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 11:13:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 11:13:30,053 INFO app Thread-6 : Info level log
+2021-01-11 11:13:30,054 WARNING app Thread-6 : Warning level log
+2021-01-11 11:13:30,081 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 11:13:30] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 11:13:30,098 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 11:13:30] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 11:13:30,131 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 11:13:30] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 11:13:32,756 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 11:13:32] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 11:13:36,239 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 11:13:36] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:13:38,893 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 11:13:38] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 11:13:42,677 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 11:13:42] "[37mGET /create_author HTTP/1.1[0m" 200 -
+2021-01-11 11:13:48,139 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 11:13:48] "[32mPOST /create_author HTTP/1.1[0m" 302 -
+2021-01-11 11:13:48,186 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 11:13:48] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:13:50,234 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 11:13:50] "[37mGET /books/3 HTTP/1.1[0m" 200 -
+2021-01-11 11:13:52,625 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 11:13:52] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 11:14:07,162 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 11:14:07] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:14:09,105 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 11:14:09] "[37mGET /books/3 HTTP/1.1[0m" 200 -
+2021-01-11 11:14:11,681 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 11:14:11] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 11:14:41,829 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 11:14:41,933 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 11:14:45,323 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 11:14:45] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 11:14:52,893 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 11:14:52] "[32mPOST /create_book HTTP/1.1[0m" 302 -
+2021-01-11 11:14:52,937 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 11:14:52] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:14:58,420 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 11:14:58] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:15:00,044 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 11:15:00] "[37mGET /books/3 HTTP/1.1[0m" 200 -
+2021-01-11 11:15:01,993 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 11:15:01] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:15:02,751 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 11:15:02] "[37mGET /books/1 HTTP/1.1[0m" 200 -
+2021-01-11 11:15:05,342 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 11:15:05] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:15:06,289 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 11:15:06] "[37mGET /books/2 HTTP/1.1[0m" 200 -
+2021-01-11 11:15:08,173 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 11:15:08] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:15:09,189 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 11:15:09] "[37mGET /books/1 HTTP/1.1[0m" 200 -
+2021-01-11 11:15:12,312 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 11:15:12] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 11:15:15,129 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 11:15:15] "[37mGET /users HTTP/1.1[0m" 200 -
+2021-01-11 11:15:16,699 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 11:15:16] "[37mGET /books/users/1 HTTP/1.1[0m" 200 -
+2021-01-11 11:32:55,906 INFO app Thread-3 : Info level log
+2021-01-11 11:32:55,906 WARNING app Thread-3 : Warning level log
+2021-01-11 11:32:55,919 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 11:32:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 11:32:55,959 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 11:32:55] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 11:32:56,224 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 11:32:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 11:33:01,132 INFO app Thread-6 : Info level log
+2021-01-11 11:33:01,133 WARNING app Thread-6 : Warning level log
+2021-01-11 11:33:01,162 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 11:33:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 11:33:01,179 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 11:33:01] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 11:33:01,212 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 11:33:01] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 11:33:04,374 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 11:33:04] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:33:58,221 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 11:33:58] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:33:58,919 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 11:33:58] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:33:59,953 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 11:33:59] "[31m[1mGET /vote HTTP/1.1[0m" 405 -
+2021-01-11 11:34:02,380 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 11:34:02] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:34:04,414 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 11:34:04] "[31m[1mGET /vote HTTP/1.1[0m" 405 -
+2021-01-11 11:34:06,147 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 11:34:06] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:52:41,148 INFO app Thread-3 : Info level log
+2021-01-11 11:52:41,148 WARNING app Thread-3 : Warning level log
+2021-01-11 11:52:41,164 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 11:52:41] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 11:52:41,191 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 11:52:41] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 11:52:41,470 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 11:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 11:52:47,256 INFO app Thread-6 : Info level log
+2021-01-11 11:52:47,256 WARNING app Thread-6 : Warning level log
+2021-01-11 11:52:47,279 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 11:52:47] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 11:52:47,295 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 11:52:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 11:52:47,331 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 11:52:47] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,630 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:52:50,662 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,663 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,663 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,804 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,848 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:52:50,884 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 11:52:50] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,440 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:53:16,472 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,474 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,474 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,525 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,564 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:53:16,589 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 11:53:16] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,401 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:53:17,429 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,431 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,431 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,477 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,512 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:53:17,536 INFO werkzeug Thread-29 : 127.0.0.1 - - [11/Jan/2021 11:53:17] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,464 INFO werkzeug Thread-30 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:54:05,496 INFO werkzeug Thread-31 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,496 INFO werkzeug Thread-33 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,497 INFO werkzeug Thread-32 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,552 INFO werkzeug Thread-34 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,591 INFO werkzeug Thread-35 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:05,616 INFO werkzeug Thread-36 : 127.0.0.1 - - [11/Jan/2021 11:54:05] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,355 INFO werkzeug Thread-37 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:54:06,386 INFO werkzeug Thread-38 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,388 INFO werkzeug Thread-39 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,389 INFO werkzeug Thread-40 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,440 INFO werkzeug Thread-41 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,480 INFO werkzeug Thread-42 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:06,506 INFO werkzeug Thread-43 : 127.0.0.1 - - [11/Jan/2021 11:54:06] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,749 INFO werkzeug Thread-44 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:54:45,780 INFO werkzeug Thread-45 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,780 INFO werkzeug Thread-46 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,781 INFO werkzeug Thread-47 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,832 INFO werkzeug Thread-48 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,870 INFO werkzeug Thread-49 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:45,899 INFO werkzeug Thread-50 : 127.0.0.1 - - [11/Jan/2021 11:54:45] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,681 INFO werkzeug Thread-51 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:54:46,709 INFO werkzeug Thread-52 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,711 INFO werkzeug Thread-53 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,712 INFO werkzeug Thread-54 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,759 INFO werkzeug Thread-55 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,793 INFO werkzeug Thread-56 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:54:46,819 INFO werkzeug Thread-57 : 127.0.0.1 - - [11/Jan/2021 11:54:46] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,423 INFO werkzeug Thread-58 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:55:31,453 INFO werkzeug Thread-59 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,453 INFO werkzeug Thread-60 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,454 INFO werkzeug Thread-61 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,508 INFO werkzeug Thread-62 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,547 INFO werkzeug Thread-63 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:31,574 INFO werkzeug Thread-64 : 127.0.0.1 - - [11/Jan/2021 11:55:31] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,279 INFO werkzeug Thread-65 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:55:32,309 INFO werkzeug Thread-66 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,310 INFO werkzeug Thread-68 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,311 INFO werkzeug Thread-67 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,364 INFO werkzeug Thread-69 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,403 INFO werkzeug Thread-70 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:32,429 INFO werkzeug Thread-71 : 127.0.0.1 - - [11/Jan/2021 11:55:32] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:48,898 INFO werkzeug Thread-72 : 127.0.0.1 - - [11/Jan/2021 11:55:48] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:55:48,930 INFO werkzeug Thread-73 : 127.0.0.1 - - [11/Jan/2021 11:55:48] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:55:48,930 INFO werkzeug Thread-74 : 127.0.0.1 - - [11/Jan/2021 11:55:48] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:48,931 INFO werkzeug Thread-75 : 127.0.0.1 - - [11/Jan/2021 11:55:48] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:48,983 INFO werkzeug Thread-76 : 127.0.0.1 - - [11/Jan/2021 11:55:48] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,021 INFO werkzeug Thread-77 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,050 INFO werkzeug Thread-78 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,706 INFO werkzeug Thread-79 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[35m[1mGET /books HTTP/1.1[0m" 500 -
+2021-01-11 11:55:49,739 INFO werkzeug Thread-80 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,740 INFO werkzeug Thread-82 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,741 INFO werkzeug Thread-81 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,789 INFO werkzeug Thread-83 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,824 INFO werkzeug Thread-84 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:55:49,849 INFO werkzeug Thread-85 : 127.0.0.1 - - [11/Jan/2021 11:55:49] "[37mGET /books?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 11:56:21,481 INFO werkzeug Thread-86 : 127.0.0.1 - - [11/Jan/2021 11:56:21] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 11:56:21,516 INFO werkzeug Thread-87 : 127.0.0.1 - - [11/Jan/2021 11:56:21] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 11:56:22,109 INFO werkzeug Thread-88 : 127.0.0.1 - - [11/Jan/2021 11:56:22] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 14:24:16,300 INFO app Thread-3 : Info level log
+2021-01-11 14:24:16,300 WARNING app Thread-3 : Warning level log
+2021-01-11 14:24:16,312 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:24:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 14:24:16,335 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:24:16] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 14:24:16,640 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:24:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 14:24:21,832 INFO app Thread-6 : Info level log
+2021-01-11 14:24:21,833 WARNING app Thread-6 : Warning level log
+2021-01-11 14:24:21,862 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:24:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 14:24:21,877 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:24:21] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 14:24:21,908 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:24:21] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:24:24,265 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:24:24] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,504 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:24:26,535 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,536 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,536 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,677 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,711 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:24:26,735 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:24:26] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:24:48,662 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:24:48,772 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:24:52,854 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:24:52,888 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:24:52,888 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:52,889 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:52,942 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:24:52,979 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:24:52] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:24:53,004 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:24:53] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,108 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:24:54,138 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,139 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,140 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,187 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,228 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:24:54,256 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:24:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:28:59,799 INFO app Thread-3 : Info level log
+2021-01-11 14:28:59,799 WARNING app Thread-3 : Warning level log
+2021-01-11 14:28:59,817 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:28:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 14:28:59,843 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:28:59] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 14:29:00,075 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:29:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 14:29:06,258 INFO app Thread-6 : Info level log
+2021-01-11 14:29:06,259 WARNING app Thread-6 : Warning level log
+2021-01-11 14:29:06,289 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:29:06] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 14:29:06,304 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:29:06] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 14:29:06,335 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:29:06] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:29:09,112 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:29:09] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 14:29:10,454 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:29:10,487 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:29:10,488 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:29:10,489 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:29:10,622 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:29:10,662 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:29:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:30:27,718 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:30:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 14:30:27,754 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 14:30:27] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:30:43,049 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 14:30:43] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 14:30:43,079 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 14:30:43] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:30:45,332 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 14:30:45] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 14:42:31,838 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:42:31,932 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:52:38,091 INFO app Thread-3 : Info level log
+2021-01-11 14:52:38,092 WARNING app Thread-3 : Warning level log
+2021-01-11 14:52:38,106 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:52:38] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 14:52:38,134 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:52:38] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 14:52:38,400 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 14:52:44,039 INFO app Thread-6 : Info level log
+2021-01-11 14:52:44,039 WARNING app Thread-6 : Warning level log
+2021-01-11 14:52:44,060 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:52:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 14:52:44,075 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:52:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 14:52:44,108 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:52:44] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,443 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:52:47,474 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,475 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,475 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,669 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,676 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:52:47,699 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:52:47] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:06,434 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/forms.py', reloading
+2021-01-11 14:53:06,546 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:53:17,393 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/forms.py', reloading
+2021-01-11 14:53:17,502 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:53:23,172 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:53:23,206 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:53:23,207 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:23,207 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:23,250 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:53:23,265 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:23,284 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:53:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,387 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:53:35,416 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,417 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,417 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,465 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,498 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:35,521 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:53:35] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:51,324 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:53:51,405 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:53:54,566 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:53:54,599 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:53:54,600 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:54,600 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:53:54,676 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:53:54,689 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:53:54,708 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:53:54] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:16,164 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:54:16,256 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:54:28,329 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:54:28,408 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:54:32,308 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:54:32,341 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:54:32,341 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:32,342 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:32,414 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:32,421 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:54:32,436 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:54:32] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,271 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:54:33,303 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,303 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,304 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,379 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,385 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:54:33,401 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:54:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:47,938 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:54:48,063 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:54:51,193 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 14:54:51,226 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:54:51,227 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:51,227 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:54:51,281 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:54:51,323 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:54:51,353 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:54:51] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:56:53,376 INFO app Thread-3 : Info level log
+2021-01-11 14:56:53,376 WARNING app Thread-3 : Warning level log
+2021-01-11 14:56:53,393 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:56:53] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 14:56:53,418 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:56:53] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 14:56:53,733 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:56:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 14:56:58,867 INFO app Thread-6 : Info level log
+2021-01-11 14:56:58,867 WARNING app Thread-6 : Warning level log
+2021-01-11 14:56:58,889 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:56:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 14:56:58,903 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:56:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 14:56:58,933 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:56:58] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 14:57:01,147 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:57:01] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,480 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 14:57:10,510 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,512 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,513 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,653 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,681 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:57:10,709 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:57:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:57:31,241 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:57:31,345 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:57:35,023 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:57:35] "[37mPOST /index HTTP/1.1[0m" 200 -
+2021-01-11 14:58:02,880 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:58:02] "[37mPOST /index HTTP/1.1[0m" 200 -
+2021-01-11 14:58:17,594 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:58:17,689 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:58:33,719 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:58:33,808 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:58:37,557 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 14:58:37,657 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 14:59:10,025 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 14:59:10,062 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:59:10,063 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:59:10,064 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:59:10,132 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:59:10,192 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:59:10,243 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 14:59:10] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,089 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 14:59:23,120 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,121 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,121 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,176 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,237 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 14:59:23,275 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 14:59:23] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,714 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 15:00:01,749 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,750 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,751 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,820 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,879 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:00:01,915 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 15:00:01] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:00:15,623 INFO app Thread-3 : Info level log
+2021-01-11 15:00:15,623 WARNING app Thread-3 : Warning level log
+2021-01-11 15:00:15,638 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 15:00:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 15:00:15,665 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 15:00:15] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 15:00:15,927 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 15:00:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 15:00:21,221 INFO app Thread-6 : Info level log
+2021-01-11 15:00:21,222 WARNING app Thread-6 : Warning level log
+2021-01-11 15:00:21,256 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 15:00:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 15:00:21,274 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 15:00:21] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 15:00:21,308 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 15:00:21] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 15:00:22,967 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 15:00:22] "[33mGET /ideas HTTP/1.1[0m" 404 -
+2021-01-11 15:00:24,691 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 15:00:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 15:01:40,635 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 15:01:40] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 15:01:41,250 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 15:01:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 15:01:44,164 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 15:01:44,197 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 15:01:44,197 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 15:01:44,198 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 15:01:44,363 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 15:01:44,407 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 15:01:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,058 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 15:02:04,089 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,090 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,092 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,142 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,145 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,220 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,875 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-01-11 15:02:04,905 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,906 INFO werkzeug Thread-29 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,906 INFO werkzeug Thread-30 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,962 INFO werkzeug Thread-31 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 15:02:04,993 INFO werkzeug Thread-32 : 127.0.0.1 - - [11/Jan/2021 15:02:04] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:02:05,016 INFO werkzeug Thread-33 : 127.0.0.1 - - [11/Jan/2021 15:02:05] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 15:02:18,650 INFO werkzeug Thread-34 : 127.0.0.1 - - [11/Jan/2021 15:02:18] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:02:18,687 INFO werkzeug Thread-35 : 127.0.0.1 - - [11/Jan/2021 15:02:18] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 15:02:39,219 INFO werkzeug Thread-36 : 127.0.0.1 - - [11/Jan/2021 15:02:39] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:02:39,249 INFO werkzeug Thread-37 : 127.0.0.1 - - [11/Jan/2021 15:02:39] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 15:02:39,938 INFO werkzeug Thread-38 : 127.0.0.1 - - [11/Jan/2021 15:02:39] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:03:41,109 INFO werkzeug Thread-40 : 127.0.0.1 - - [11/Jan/2021 15:03:41] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:03:41,770 INFO werkzeug Thread-41 : 127.0.0.1 - - [11/Jan/2021 15:03:41] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:04:20,654 INFO werkzeug Thread-42 : 127.0.0.1 - - [11/Jan/2021 15:04:20] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:04:21,509 INFO werkzeug Thread-43 : 127.0.0.1 - - [11/Jan/2021 15:04:21] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:04:45,320 INFO werkzeug Thread-44 : 127.0.0.1 - - [11/Jan/2021 15:04:45] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 15:04:45,984 INFO werkzeug Thread-45 : 127.0.0.1 - - [11/Jan/2021 15:04:45] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:41:16,190 INFO app Thread-3 : Info level log
+2021-01-11 16:41:16,190 WARNING app Thread-3 : Warning level log
+2021-01-11 16:41:16,205 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 16:41:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:41:16,234 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 16:41:16] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:41:16,552 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 16:41:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 16:41:23,829 INFO app Thread-6 : Info level log
+2021-01-11 16:41:23,829 WARNING app Thread-6 : Warning level log
+2021-01-11 16:41:23,860 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 16:41:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:41:23,879 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 16:41:23] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:41:23,915 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 16:41:23] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:41:27,654 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 16:41:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:41:31,191 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 16:41:31] "[37mPOST /index HTTP/1.1[0m" 200 -
+2021-01-11 16:41:42,308 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 16:41:42] "[37mPOST /index HTTP/1.1[0m" 200 -
+2021-01-11 16:43:36,881 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/models.py', reloading
+2021-01-11 16:43:36,988 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 16:44:54,216 INFO app Thread-3 : Info level log
+2021-01-11 16:44:54,217 WARNING app Thread-3 : Warning level log
+2021-01-11 16:44:54,233 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 16:44:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:44:54,270 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 16:44:54] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:44:59,376 INFO app Thread-5 : Info level log
+2021-01-11 16:44:59,377 WARNING app Thread-5 : Warning level log
+2021-01-11 16:44:59,407 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 16:44:59] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:44:59,425 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 16:44:59] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:44:59,459 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 16:44:59] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:45:01,642 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 16:45:01] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,496 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 16:45:06,530 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,532 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,532 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,700 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,796 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:45:06,849 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 16:45:06] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:45:44,799 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 16:45:44,843 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:45:44,844 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:45:44,845 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:45:44,910 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:45:44,972 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 16:45:44] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:45:45,015 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 16:45:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:46:56,127 INFO app Thread-3 : Info level log
+2021-01-11 16:46:56,127 WARNING app Thread-3 : Warning level log
+2021-01-11 16:46:56,141 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 16:46:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:46:56,168 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 16:46:56] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:46:56,427 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 16:46:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 16:47:02,607 INFO app Thread-6 : Info level log
+2021-01-11 16:47:02,608 WARNING app Thread-6 : Warning level log
+2021-01-11 16:47:02,639 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 16:47:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:47:02,656 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 16:47:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:47:02,687 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 16:47:02] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:47:05,223 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 16:47:05] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:47:09,670 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 16:47:09] "[37mPOST /index HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,307 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 16:47:28,349 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,350 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,351 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,535 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,602 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:47:28,647 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 16:47:28] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:47:30,582 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 16:47:30] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:47:30,619 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 16:47:30] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:47:30,911 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 16:47:30] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:47:31,866 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 16:47:31] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,278 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[35m[1mPOST /index HTTP/1.1[0m" 500 -
+2021-01-11 16:47:33,310 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,311 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,311 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,367 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,421 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:47:33,457 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Jan/2021 16:47:33] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:48:02,579 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 16:48:02,714 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 16:48:14,391 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 16:48:14,483 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 16:48:44,866 INFO app Thread-3 : Info level log
+2021-01-11 16:48:44,867 WARNING app Thread-3 : Warning level log
+2021-01-11 16:48:44,887 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 16:48:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:48:44,913 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 16:48:44] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:48:48,773 INFO app Thread-5 : Info level log
+2021-01-11 16:48:48,774 WARNING app Thread-5 : Warning level log
+2021-01-11 16:48:48,797 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 16:48:48] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:48:48,812 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 16:48:48] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:48:48,844 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 16:48:48] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:48:51,327 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 16:48:51] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 16:48:57,120 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 16:48:57] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,325 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 16:49:49,386 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,387 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,388 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,536 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,595 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:49:49,641 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 16:49:49] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:50:04,802 INFO app Thread-17 : Info level log
+2021-01-11 16:50:04,809 WARNING app Thread-17 : Warning level log
+2021-01-11 16:50:04,812 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 16:50:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:50:04,856 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 16:50:04] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:50:08,596 INFO app Thread-19 : Info level log
+2021-01-11 16:50:08,596 WARNING app Thread-19 : Warning level log
+2021-01-11 16:50:08,637 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 16:50:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:50:08,643 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 16:50:08] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:50:08,676 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 16:50:08] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:50:10,674 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[35m[1mGET /ideas HTTP/1.1[0m" 500 -
+2021-01-11 16:50:10,704 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:50:10,705 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:50:10,706 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:50:10,852 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:50:10,888 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 16:50:10] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:58:21,341 INFO app Thread-3 : Info level log
+2021-01-11 16:58:21,341 WARNING app Thread-3 : Warning level log
+2021-01-11 16:58:21,354 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 16:58:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 16:58:21,379 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 16:58:21] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 16:58:21,703 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 16:58:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 16:58:25,371 INFO app Thread-6 : Info level log
+2021-01-11 16:58:25,372 WARNING app Thread-6 : Warning level log
+2021-01-11 16:58:25,399 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 16:58:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 16:58:25,417 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 16:58:25] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 16:58:25,447 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 16:58:25] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 16:58:27,581 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 16:58:27] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,532 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 16:58:38,568 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,570 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,570 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,726 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,789 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:58:38,853 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 16:58:38] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 16:58:46,610 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 16:58:46] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 16:58:49,776 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 16:58:49] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:00:49,418 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 17:00:49,540 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 17:00:59,788 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 17:00:59,821 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 17:00:59,822 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 17:00:59,822 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 17:00:59,897 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:00:59,902 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 17:00:59,915 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 17:00:59] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:01:18,863 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 17:01:18] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 17:01:18,895 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 17:01:18] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 17:01:18,896 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 17:01:18] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 17:01:18,897 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 17:01:18] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 17:01:18,957 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 17:01:18] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 17:01:19,015 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 17:01:19] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:01:19,049 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 17:01:19] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:01:24,582 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 17:01:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 17:01:24,621 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 17:01:24] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 17:01:27,680 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 17:01:27] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:01:27,710 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 17:01:27] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 17:01:31,289 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 17:01:31] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:34:31,860 INFO app Thread-3 : Info level log
+2021-01-11 17:34:31,860 WARNING app Thread-3 : Warning level log
+2021-01-11 17:34:31,874 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 17:34:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 17:34:31,900 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 17:34:31] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 17:34:36,240 INFO app Thread-5 : Info level log
+2021-01-11 17:34:36,240 WARNING app Thread-5 : Warning level log
+2021-01-11 17:34:36,261 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 17:34:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 17:34:36,277 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 17:34:36] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 17:34:36,308 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 17:34:36] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 17:34:38,345 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 17:34:38] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:34:44,888 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 17:34:44] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:35:51,843 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 17:35:51] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 17:35:51,879 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 17:35:51] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 17:35:51,879 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 17:35:51] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 17:35:51,880 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 17:35:51] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 17:35:52,023 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 17:35:52] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 17:35:52,086 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 17:35:52] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:35:52,131 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 17:35:52] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:35:54,797 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 17:35:54] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 17:35:57,830 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 17:35:57] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:35:59,406 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 17:35:59] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:37:15,450 INFO app Thread-3 : Info level log
+2021-01-11 17:37:15,450 WARNING app Thread-3 : Warning level log
+2021-01-11 17:37:15,469 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 17:37:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 17:37:15,497 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 17:37:15] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 17:37:19,081 INFO app Thread-5 : Info level log
+2021-01-11 17:37:19,081 WARNING app Thread-5 : Warning level log
+2021-01-11 17:37:19,102 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 17:37:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 17:37:19,118 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 17:37:19] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 17:37:19,149 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 17:37:19] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 17:37:21,201 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 17:37:21] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:37:59,789 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 17:37:59,892 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 17:39:02,913 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 17:39:02] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,567 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[35m[1mGET /ideas HTTP/1.1[0m" 500 -
+2021-01-11 17:39:05,601 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,602 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,602 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,706 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,743 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:39:05,788 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 17:39:05] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 17:40:01,843 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 17:40:01] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:52:34,313 INFO app Thread-3 : Info level log
+2021-01-11 17:52:34,313 WARNING app Thread-3 : Warning level log
+2021-01-11 17:52:34,331 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 17:52:34] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 17:52:34,363 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 17:52:34] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 17:52:39,728 INFO app Thread-5 : Info level log
+2021-01-11 17:52:39,728 WARNING app Thread-5 : Warning level log
+2021-01-11 17:52:39,749 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 17:52:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 17:52:39,765 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 17:52:39] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 17:52:39,797 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 17:52:39] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 17:52:41,798 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 17:52:41] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:54:21,268 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 17:54:21] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:54:22,044 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 17:54:22] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:55:41,988 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 17:55:41] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 17:55:42,737 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 17:55:42] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:01:14,406 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 18:01:14] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:01:15,102 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 18:01:15] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:01:15,746 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 18:01:15] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:02:29,666 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 18:02:29] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:02:30,362 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 18:02:30] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:02:34,503 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 18:02:34] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:13:55,223 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 18:13:55,337 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 18:14:05,225 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 18:14:05,311 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 18:26:57,063 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[35m[1mPOST /ideas HTTP/1.1[0m" 500 -
+2021-01-11 18:26:57,106 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 18:26:57,107 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 18:26:57,108 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 18:26:57,240 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 18:26:57,241 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 18:26:57,261 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 18:26:57] "[37mGET /ideas?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 18:27:29,238 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 18:27:29] "[37mPOST /ideas HTTP/1.1[0m" 200 -
+2021-01-11 18:27:29,269 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 18:27:29] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 18:27:29,297 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/__init__.py', reloading
+2021-01-11 18:27:29,414 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 18:27:34,034 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 18:27:34] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:27:39,984 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 18:27:39] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:27:40,486 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 18:27:40] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:27:40,807 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 18:27:40] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:27:41,227 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 18:27:41] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:27:41,513 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 18:27:41] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:28:31,704 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 18:28:31] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:28:32,290 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 18:28:32] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:28:35,446 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 18:28:35] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:28:36,116 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 18:28:36] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:28:36,433 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 18:28:36] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:28:44,950 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 18:28:44] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:28:45,267 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 18:28:45] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:33,038 INFO app Thread-3 : Info level log
+2021-01-11 18:44:33,039 WARNING app Thread-3 : Warning level log
+2021-01-11 18:44:33,055 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 18:44:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 18:44:33,081 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 18:44:33] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 18:44:33,371 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 18:44:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-01-11 18:44:39,091 INFO app Thread-6 : Info level log
+2021-01-11 18:44:39,091 WARNING app Thread-6 : Warning level log
+2021-01-11 18:44:39,112 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 18:44:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2021-01-11 18:44:39,128 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 18:44:39] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-01-11 18:44:39,160 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 18:44:39] "[37mGET /static/print.css HTTP/1.1[0m" 200 -
+2021-01-11 18:44:40,994 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 18:44:40] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:44:44,801 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 18:44:44] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:45,503 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 18:44:45] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:45,910 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 18:44:45] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:46,270 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 18:44:46] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:46,412 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 18:44:46] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:46,560 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 18:44:46] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:46,690 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 18:44:46] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:44:46,901 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 18:44:46] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:45:22,996 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 18:45:23,087 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 18:45:52,667 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 18:45:52] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:45:53,268 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 18:45:53] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:46:01,472 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 18:46:01] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:01,685 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 18:46:01] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:01,900 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 18:46:01] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:02,115 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 18:46:02] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:02,323 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 18:46:02] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:02,425 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 18:46:02] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:02,578 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 18:46:02] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:03,029 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 18:46:03] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:03,171 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 18:46:03] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:03,302 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 18:46:03] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:05,990 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 18:46:05] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:11,659 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 18:46:11] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:46:11,913 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 18:46:11] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:02,707 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 18:47:02] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:47:03,279 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 18:47:03] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:47:07,241 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 18:47:07] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:07,737 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 18:47:07] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:08,069 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 18:47:08] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:10,045 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 18:47:10] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:42,501 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 18:47:42] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:47:47,189 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 18:47:47] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:47,784 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 18:47:47] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:48,148 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 18:47:48] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:48,283 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Jan/2021 18:47:48] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:48,447 INFO werkzeug Thread-29 : 127.0.0.1 - - [11/Jan/2021 18:47:48] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:48,599 INFO werkzeug Thread-30 : 127.0.0.1 - - [11/Jan/2021 18:47:48] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:47:48,805 INFO werkzeug Thread-31 : 127.0.0.1 - - [11/Jan/2021 18:47:48] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:17,141 INFO werkzeug Thread-32 : 127.0.0.1 - - [11/Jan/2021 18:53:17] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:53:17,175 INFO werkzeug Thread-33 : 127.0.0.1 - - [11/Jan/2021 18:53:17] "[37mGET /static/jquery.min.js HTTP/1.1[0m" 200 -
+2021-01-11 18:53:17,177 INFO werkzeug Thread-34 : 127.0.0.1 - - [11/Jan/2021 18:53:17] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-01-11 18:53:17,720 INFO werkzeug Thread-35 : 127.0.0.1 - - [11/Jan/2021 18:53:17] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 18:53:23,131 INFO werkzeug Thread-36 : 127.0.0.1 - - [11/Jan/2021 18:53:23] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:23,614 INFO werkzeug Thread-37 : 127.0.0.1 - - [11/Jan/2021 18:53:23] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:23,745 INFO werkzeug Thread-38 : 127.0.0.1 - - [11/Jan/2021 18:53:23] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:23,876 INFO werkzeug Thread-39 : 127.0.0.1 - - [11/Jan/2021 18:53:23] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:24,087 INFO werkzeug Thread-40 : 127.0.0.1 - - [11/Jan/2021 18:53:24] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:26,914 INFO werkzeug Thread-41 : 127.0.0.1 - - [11/Jan/2021 18:53:26] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:27,242 INFO werkzeug Thread-42 : 127.0.0.1 - - [11/Jan/2021 18:53:27] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:53:27,548 INFO werkzeug Thread-43 : 127.0.0.1 - - [11/Jan/2021 18:53:27] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:54:58,431 INFO werkzeug Thread-44 : 127.0.0.1 - - [11/Jan/2021 18:54:58] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:54:58,689 INFO werkzeug Thread-45 : 127.0.0.1 - - [11/Jan/2021 18:54:58] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:54:58,899 INFO werkzeug Thread-46 : 127.0.0.1 - - [11/Jan/2021 18:54:58] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:54:59,105 INFO werkzeug Thread-47 : 127.0.0.1 - - [11/Jan/2021 18:54:59] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 18:59:30,863 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 18:59:30,965 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:00:52,577 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 19:00:52,688 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:01:57,726 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/models.py', reloading
+2021-01-11 19:01:57,855 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:02:10,296 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/forms.py', reloading
+2021-01-11 19:02:10,390 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:03:12,109 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 19:03:12,219 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:03:26,323 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 19:03:26,425 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:03:34,073 INFO werkzeug MainThread :  * Detected change in '/home/cserv1_a/soc_msc/sc19jkk/WebbAppDev/book_app/app/views.py', reloading
+2021-01-11 19:03:34,211 INFO werkzeug MainThread :  * Restarting with stat
+2021-01-11 19:04:06,672 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2021 19:04:06] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 19:04:07,284 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2021 19:04:07] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 19:04:10,103 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Jan/2021 19:04:10] "[37mGET /users HTTP/1.1[0m" 200 -
+2021-01-11 19:04:11,647 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Jan/2021 19:04:11] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 19:04:12,776 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Jan/2021 19:04:12] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 19:04:13,807 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Jan/2021 19:04:13] "[37mGET /ideas HTTP/1.1[0m" 200 -
+2021-01-11 19:04:15,892 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Jan/2021 19:04:15] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 19:04:15,926 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Jan/2021 19:04:15] "[37mGET /static/jquery.min.js HTTP/1.1[0m" 200 -
+2021-01-11 19:04:15,927 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Jan/2021 19:04:15] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-01-11 19:04:20,929 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Jan/2021 19:04:20] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 19:04:21,439 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Jan/2021 19:04:21] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 19:04:21,586 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Jan/2021 19:04:21] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 19:04:21,748 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Jan/2021 19:04:21] "[37mGET /background_process HTTP/1.1[0m" 200 -
+2021-01-11 19:04:22,934 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Jan/2021 19:04:22] "[37mGET /setcookie HTTP/1.1[0m" 200 -
+2021-01-11 19:04:24,071 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Jan/2021 19:04:24] "[37mGET /quiz HTTP/1.1[0m" 200 -
+2021-01-11 19:04:25,752 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Jan/2021 19:04:25] "[37mGET /users HTTP/1.1[0m" 200 -
+2021-01-11 19:04:27,557 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Jan/2021 19:04:27] "[37mGET /books HTTP/1.1[0m" 200 -
+2021-01-11 19:04:28,651 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Jan/2021 19:04:28] "[37mGET /create_book HTTP/1.1[0m" 200 -
+2021-01-11 19:04:29,823 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Jan/2021 19:04:29] "[37mGET /create_user HTTP/1.1[0m" 200 -
+2021-01-11 19:04:31,193 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Jan/2021 19:04:31] "[37mGET /create_author HTTP/1.1[0m" 200 -
+2021-01-11 19:04:43,037 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Jan/2021 19:04:43] "[32mPOST /create_author HTTP/1.1[0m" 302 -
+2021-01-11 19:04:43,059 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Jan/2021 19:04:43] "[37mGET /authors HTTP/1.1[0m" 200 -
+2021-01-11 19:04:45,571 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Jan/2021 19:04:45] "[37mGET /create_user HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,646 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[35m[1mPOST /create_user HTTP/1.1[0m" 500 -
+2021-01-11 19:04:53,672 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,673 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,673 INFO werkzeug Thread-29 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,842 INFO werkzeug Thread-30 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,907 INFO werkzeug Thread-31 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 19:04:53,948 INFO werkzeug Thread-32 : 127.0.0.1 - - [11/Jan/2021 19:04:53] "[37mGET /create_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-01-11 19:05:01,472 INFO werkzeug Thread-33 : 127.0.0.1 - - [11/Jan/2021 19:05:01] "[37mGET /create_user HTTP/1.1[0m" 200 -
+2021-01-11 19:05:04,110 INFO werkzeug Thread-34 : 127.0.0.1 - - [11/Jan/2021 19:05:04] "[32mPOST /create_user HTTP/1.1[0m" 302 -
+2021-01-11 19:05:04,135 INFO werkzeug Thread-35 : 127.0.0.1 - - [11/Jan/2021 19:05:04] "[37mGET /users HTTP/1.1[0m" 200 -
+2021-01-11 19:05:36,892 INFO app Thread-36 : Info level log
+2021-01-11 19:05:36,893 WARNING app Thread-36 : Warning level log
+2021-01-11 19:05:36,925 INFO werkzeug Thread-36 : 127.0.0.1 - - [11/Jan/2021 19:05:36] "[37mGET / HTTP/1.1[0m" 200 -
+2021-01-11 19:05:36,960 INFO werkzeug Thread-37 : 127.0.0.1 - - [11/Jan/2021 19:05:36] "[37mGET /static/log.css HTTP/1.1[0m" 200 -
+2021-01-11 19:05:38,668 INFO app Thread-38 : Info level log
+2021-01-11 19:05:38,668 WARNING app Thread-38 : Warning level log
+2021-01-11 19:05:38,670 INFO werkzeug Thread-38 : 127.0.0.1 - - [11/Jan/2021 19:05:38] "[37mGET / HTTP/1.1[0m" 200 -

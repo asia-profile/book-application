@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/static/log.css">
+  {% if title %}
+  <title>Book record application - {{ title }}</title>
+  {% else %}
+  <title>Book record application</title>
+  {% endif %}
+  <style>
+    ul#menu li {
+        display:inline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+<div class="container-fluid">
+  <div class="navbar-header">
+  </div>
+
+  <ul class="nav navbar-nav navbar-right">
+  <li><a href="/"><span class="glyphicon glyphicon-remove"></span> </a></li>
+</ul>
+</div>
+</nav>
+
+
+
+
+
+
+<div>
+
+      <form class="form-signin" action="/" method="POST">
+        <h1>Login</h1> <br>
+        <h2 class="form-signin-heading"> Please enter username and password</h2>
+         {{form.hidden_tag()}}
+         {{form.username}} <br>
+         {{form.password}}
+         <br>
+         {{form.remember}} <h5> remember me </h5>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"> Log in</button>
+        <br> 
+        <h2>Attention! This site uses cookies</h2>
+      </form>
+
+<!-- <a href="/getcookie">This site uses cookies. Click to show you understand</a> -->
+
+</div>
+
+</body>
+
+</html>

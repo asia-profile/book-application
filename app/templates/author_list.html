@@ -1,0 +1,25 @@
+{% extends "home.html" %}
+{% block content %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Authors</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+    {% for a in authors %}
+    <tr>
+      <td>{{a}}</td>
+      <td><a href="/books/{{a.id}}"><button type="button" class="btn btn-primary">View Author's Books</button></a></td>
+    <!--  <td><a href="/edit_author/{{a.id}}"><button type="button" class="btn btn-primary">Edit</button></a></td>
+-->
+      <td><a href="/delete_author/{{a.id}}"><button type="button" class="btn btn-primary">Delete</button></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

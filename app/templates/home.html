@@ -1,0 +1,98 @@
+<html>
+  <head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/static/print.css">
+    {% if title %}
+    <title>Book record application - {{ title }}</title>
+    {% else %}
+    <title>Book record application</title>
+    {% endif %}
+    <style>
+      ul#menu li {
+          display:inline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/users">View Users</a></li>
+            <li><a href="/create_user">Create Users</a></li>
+          </ul>
+      </li>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Books
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/books">View Books</a></li>
+            <li><a href="/create_book">Create Books</a></li>
+          </ul>
+      </li>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/authors">View Authors</a></li>
+            <li><a href="/create_author">Create Authors</a></li>
+          </ul>
+      </li>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Something else
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/ideas">Submit new ideas</a></li>
+            <li><a href="/quiz">Mini-mini quiz</a></li>
+
+          </ul>
+      </li>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cookies
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/setcookie">See cookies</a></li>
+
+          </ul>
+      </li>
+
+
+
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="/"><span class="glyphicon glyphicon-remove"></span> </a></li>
+</ul>
+  </div>
+</nav>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+
+            {% for message in messages %}
+            <div class="alert alert-warning">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Error!</strong> {{ message }}
+            </div>
+            {% endfor %}
+
+          {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+  </body>
+</html>

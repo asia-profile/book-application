@@ -1,0 +1,22 @@
+{% extends "home.html" %}
+{% block content %}
+<body>
+
+  <head>
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.min.js') }}" ></script>
+  	<script type="text/javascript" src="{{ url_for('static', filename='quiz.js') }}" ></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	</head>
+
+
+
+  <div class=container>
+    <h3>Do you know who was the greatest author of all time?</h3>
+    <from>
+      <input type=text size=5 name=prolang>
+      <a href="/background_process" id=process_input><button class='btn btn-default'>Submit answer</button></a>
+    </form>
+    <p id=result> </p>
+  </div>
+  </body
+{%endblock%}

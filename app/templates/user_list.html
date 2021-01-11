@@ -1,0 +1,30 @@
+{% extends "home.html" %}
+{% block content %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Password</th>
+
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+
+    {% for user in users %}
+    <tr>
+      <td>{{user.username}}</td>
+      <td>{{user.password}}</td>
+
+      <td><a href="/edit_user/{{user.userid}}"><button type="button" class="btn btn-primary">Edit</button></a></td>
+      <td><a href="/delete_user/{{user.userid}}"><button type="button" class="btn btn-primary">Delete</button></a></td>
+      <td><a href="/books/users/{{user.userid}}"><button type="button" class="btn btn-primary">View User's Books</button></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

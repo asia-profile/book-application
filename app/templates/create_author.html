@@ -1,0 +1,22 @@
+<!-- extend base layout -->
+{% extends "home.html" %}
+
+{% block content %}
+  <h1>Create new Author</h1>
+  <form action="" method="post" name="create">
+      {{ form.hidden_tag() }}
+      <p>
+
+          Name: {{ form.name(cols='80',class_='form-control') }}<br>
+          {% for error in form.name.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}<br>
+          Surname: {{ form.surname(cols='80',class_='form-control') }}<br>
+          {% for error in form.surname.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}<br>
+
+      </p>
+      <p><input type="submit" class="btn btn-default" value="Create Author"></p>
+  </form>
+{% endblock %}
